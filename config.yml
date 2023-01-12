@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Papirfly Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://timely-marigold-a998a7.netlify.app
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -109,7 +109,7 @@ baseURL: https://example.com
 #
 # We recommend to keep this at `true`.
 # BOOLEAN; `true`, `false`
-enableGitInfo: true
+enableGitInfo: false
 
 
 ############################################################
@@ -143,10 +143,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
     - name: Uncategorized
       untitled: true
 
@@ -158,19 +154,8 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Papirfly Web Services
+      description: Web applications hosted by Papirfly
       category: Uncategorized
 
   # What date format to use?
@@ -242,7 +227,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "monthly"
 
   # Should incident history be hidden?
   #
@@ -269,7 +254,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
@@ -286,7 +271,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: logo.png
+  logo: Papirfly_Logo_White_3x.png
 
   # This is the description that is shown
   # on the footer and meta tags.
@@ -298,10 +283,11 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+   - name: Papirfly Web hotels
+     link: https://status.papirfly.com/webhotels.php
+   - name: Papirfly Global
+     link: https://www.papirfly.com
 
   # Disable complex server-side
   # calculations that may impact
@@ -319,7 +305,7 @@ params:
   # in one page
   #
   # NUMERIC; Default: `10`
-  incidentPostsPerPage: 10
+  incidentPostsPerPage: 5
 
   # Colors throughout cState
   #
@@ -333,7 +319,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#2b0a5b"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
