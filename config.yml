@@ -2,7 +2,7 @@ title: Papirfly Status
 buildFuture: true
 defaultContentLanguage: en
 languageCode: en
-baseURL: https://timely-marigold-a998a7.netlify.app
+baseURL: https://status.papirfly.com/
 theme: cstate
 preserveTaxonomyNames: true
 taxonomies:
