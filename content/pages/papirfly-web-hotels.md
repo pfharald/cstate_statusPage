@@ -2,6 +2,8 @@
 title: Papirfly Web hotels
 description: ""
 ---
+# Papirfly Web hotels
+
 Have you ever wondered:
 
 * what is the IP address of my web site?
@@ -31,8 +33,6 @@ The Papirfly web hotels are called pf-web71, pf-web801 etc. You may be more fami
 
   * web501.papirfly.net
 
-
-
 ### Here is the same list of webhotels with IP addresses
 
 * **pf-web6**
@@ -54,8 +54,6 @@ The Papirfly web hotels are called pf-web71, pf-web801 etc. You may be more fami
 * **pf-web501**
 
   * 193.36.148.131
-
-
 
 - - -
 
