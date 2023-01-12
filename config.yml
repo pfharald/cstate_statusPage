@@ -40,7 +40,7 @@ params:
     - name: Papirfly Web Services
       description: Web applications hosted by Papirfly
       category: Uncategorized
-  dateFormat: January 2, 2006 at 15:04 UTC
+  dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#2b0a5b"
   enableLastMod: true
   headerTextColor: white
