@@ -1,7 +1,7 @@
 ---
 section: issue
 title: Notification of planned maintenance
-date: 2023-01-01 18:05:00
+date: 2020-01-01T17:05:00.000Z
 informational: true
 pin: true
 resolvedWhen: ""
