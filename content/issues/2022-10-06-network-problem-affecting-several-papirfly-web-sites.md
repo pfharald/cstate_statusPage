@@ -11,7 +11,8 @@ affected:
   - Papirfly Web Services
 severity: disrupted
 ---
-**Summary**
+
+## Summary
 
 Our hosting provider checked their network for anomalies and found signs of resource limits in a firewall. The firewall logs have been sent to the vendor for further analysis and the firewalls were upgraded and restarted during a planned maintenance window on Thursday evening. 
 
