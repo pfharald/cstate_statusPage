@@ -34,13 +34,13 @@ params:
   skipSeconds: false
   useRelativeTime: true
   disableDarkMode: true
-  dateFormat: January 2, 2006 at 3:04 PM UTC
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
     - name: Papirfly Web Services
       description: Web applications hosted by Papirfly
       category: Uncategorized
+  dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#2b0a5b"
   enableLastMod: false
   headerTextColor: white
@@ -48,8 +48,6 @@ params:
   incidentPostsPerPage: 5
   googleAnalytics: UA-00000000-1
   customTabs:
-    - name: Papirfly Web hotels
-      link: https://status.papirfly.com/pages/papirfly-web-hotels
     - name: Downtime schedule
       link: https://status.papirfly.com/pages/scheduled-downtime
     - name: Visit Papirfly
