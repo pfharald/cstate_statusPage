@@ -59,7 +59,7 @@ params:
   useLogo: true
   disrupted: "#cc4400"
   notice: "#24478f"
-  incidentHistoryFormat: yearly
+  incidentHistoryFormat: none
   disableIncidentHistory: false
   ok: "#008000"
   categories:
