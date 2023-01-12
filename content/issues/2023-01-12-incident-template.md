@@ -1,6 +1,6 @@
 ---
 section: issue
-title: Incident Template
+title: _Incident Template
 date: 2022-10-06T13:05:01.187Z
 resolved: false
 draft: true
