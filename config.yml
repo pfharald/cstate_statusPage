@@ -49,15 +49,17 @@ params:
   googleAnalytics: UA-00000000-1
   customTabs:
     - name: Papirfly Web hotels
-      link: https://timely-marigold-a998a7.netlify.app/pages/papirfly-web-hotels
-    - name: Papirfly Global
+      link: https://status.papirfly.com/pages/papirfly-web-hotels
+    - name: Downtime schedule
+      link: https://status.papirfly.com/pages/scheduled-downtime
+    - name: Visit Papirfly
       link: https://www.papirfly.com
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
   disrupted: "#cc4400"
   notice: "#24478f"
-  incidentHistoryFormat: none
+  incidentHistoryFormat: yearly
   disableIncidentHistory: false
   ok: "#008000"
   categories:
