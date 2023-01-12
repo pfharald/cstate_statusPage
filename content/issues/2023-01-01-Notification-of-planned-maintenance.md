@@ -1,9 +1,11 @@
 ---
+section: issue
 title: Notification of planned maintenance
 date: 2023-01-01 18:05:00
 informational: true
-pin: true 
-section: issue
+pin: true
+resolvedWhen: ""
+severity: notice
 ---
 
 Regular maintenance will be performed weekly within the following time slots:
