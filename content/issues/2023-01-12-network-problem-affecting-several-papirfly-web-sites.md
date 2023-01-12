@@ -5,7 +5,7 @@ date: 2022-10-06T11:48:00.000Z
 resolved: true
 draft: false
 informational: false
-pin: false
+pin: true
 resolvedWhen: 2022-10-06T12:20:00.000Z
 affected:
   - Papirfly Web Services
