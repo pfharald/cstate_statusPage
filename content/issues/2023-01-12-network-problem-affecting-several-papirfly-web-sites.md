@@ -7,6 +7,8 @@ draft: false
 informational: false
 pin: false
 resolvedWhen: 2022-10-06T12:20:00.000Z
+affected:
+  - Papirfly Web Services
 severity: disrupted
 ---
 
