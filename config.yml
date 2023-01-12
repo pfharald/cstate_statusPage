@@ -45,7 +45,7 @@ params:
   enableLastMod: false
   headerTextColor: white
   logo: Papirfly_Logo_White_3x.png
-  incidentPostsPerPage: 1
+  incidentPostsPerPage: 5
   googleAnalytics: UA-00000000-1
   customTabs:
     - name: Papirfly Web hotels
@@ -60,7 +60,7 @@ params:
   disrupted: "#cc4400"
   notice: "#24478f"
   incidentHistoryFormat: none
-  disableIncidentHistory: false
+  disableIncidentHistory: true
   ok: "#008000"
   categories:
     - name: Uncategorized
