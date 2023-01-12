@@ -4,6 +4,8 @@ draft: false
 description: Sometimes we need to perform maintenance to keep the Papirfly
   service working and secure.
 ---
+## Scheduled downtime
+
 There are two regular scheduled maintenance windows where the Papirfly service may be affected without further warning:
 
 1. Every Monday 06:00-07:00 CET for security updates.
