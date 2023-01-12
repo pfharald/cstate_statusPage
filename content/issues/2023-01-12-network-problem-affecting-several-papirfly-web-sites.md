@@ -1,15 +1,12 @@
 ---
-section: issue
 title: Network problem affecting several Papirfly web sites
-date: 2022-10-06T11:48:00.000Z
+date: 2022-10-06 11:48:00
 resolved: true
-draft: false
-informational: false
-pin: false
-resolvedWhen: 2022-10-06T12:20:00.000Z
+resolvedWhen: 2022-10-06 12:20:00
+severity: disrupted
 affected:
   - Papirfly Web Services
-severity: disrupted
+section: issue
 ---
 
 ## Summary
