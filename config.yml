@@ -42,7 +42,7 @@ params:
       category: Uncategorized
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#2b0a5b"
-  enableLastMod: true
+  enableLastMod: false
   headerTextColor: white
   logo: Papirfly_Logo_White_3x.png
   incidentPostsPerPage: 5
