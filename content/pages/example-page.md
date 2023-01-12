@@ -1,170 +1,73 @@
 ---
-title: Example Page
-description: This is an example page that demonstrates the capabilities of a Markdown page in cState.
+title: Papirfly Web hotels
+description: ""
 ---
+Have you ever wondered:
 
-Title here!
-===========
+* what is the IP address of my web site?
+* which web hotel is my web site hosted on?
 
-This is an example page that demonstrates the capabilities of a Markdown page in cState.
+The Papirfly web hotels are called pf-web71, pf-web801 etc. You may be more familiar with their alternative names (or IP addresses).
 
-You can use HTML if the file extension is `.html`, but this one is `.md`.
+### Here is a list of web hotels with alias names
 
-Let us dive in.
+* **pf-web6**
 
-Paragraphs are separated by a blank line.
+  * juliet.papirfly.no
+* **pf-web71**
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+  * echo.papirfly.no
+* **pf-web72**
 
-  * this one
-  * that one
-  * the other one
+  * web72.papirfly.net
+* **pf-web801**
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+  * web801.papirfly.net
+* **pf-web802**
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+  * web802.papirfly.net
+  * web802-2.papirfly.net
+* **pf-web501**
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+  * web501.papirfly.net
 
 
 
-An h2 header
-------------
+### Here is the same list of webhotels with IP addresses
 
-Here's a numbered list:
+* **pf-web6**
 
- 1. first item
- 2. second item
- 3. third item
+  * 212.33.138.169
+* **pf-web71**
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+  * 212.33.138.170
+* **pf-web72**
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+  * 91.201.201.10
+* **pf-web801**
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+  * 193.36.148.133
+* **pf-web802**
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+  * 193.36.148.135
+  * 91.201.201.11
+* **pf-web501**
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+  * 193.36.148.131
 
 
 
-### An h3 header ###
+- - -
 
-Now a nested list:
+To find out which web hotel you are hosted on, you can "ping" your web site address; this will show the name and IP address of your web hotel. For example, on a Windows PC, to find out which web hotel the site www.papirfly.no is hosted on
 
- 1. First, get these ingredients:
+```
+C:\> ping demo.papirfly.com
+Pinging juliet.papirfly.no [212.33.138.169] with 32 bytes of data: ...
+```
 
-      * carrots
-      * celery
-      * lentils
+Looking up the name juliet.papirfly.no and IP address 212.33.138.169 above, you can see that the site demo.papirfly.no is hosted on juliet.papirfly.no, which is an alias for pf-web6. You can also see that the IP address is 212.33.138.169 which is one of the IP addresses that belong to pf-web6.
 
- 2. Boil some water.
+Note that the above command may fail with a message like "Request timed out" (or something similar). This could be caused by networking restrictions somewhere between you and our servers. Despite this message, you should still be able to find out which web hotel your web site is hosted on.
 
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Some footnote text.
-
-Tables can look like this:
-
-Name           Size  Material      Color
--------------|-----|------------|------------
-All Business      9  leather       brown
-Roundabout       10  hemp canvas   natural
-Cinderella       11  glass         transparent
-
-Table: Shoes sizes, materials, and colors.
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-Keyword   Text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples  
-  : Good for making applesauce.
-
-oranges  
-  : Citrus!
-
-tomatoes  
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](https://via.placeholder.com/350x150 "An exemplary image")
-
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+- - -
